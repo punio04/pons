@@ -8156,6 +8156,10 @@ body.privacy #privacy .date {
     margin-left: 0px;
     font-weight: normal;
   }
+
+  .documents span {
+    font-weight: 500;
+  }
 }
 
 .sd[data-s-2517f9ff-cf95-423e-a0a3-6da66ef7f682] {
