@@ -8141,6 +8141,10 @@ body.privacy #privacy .date {
   font-weight: bold;
 }
 
+.documents span {
+  font-weight: bold;
+}
+
 @media screen and (max-width: 540px) {
   .sd[data-s-66e79102-d48d-4f27-af99-63691f06376f] {
     margin: 0px 0px 30px 0px;
