@@ -1,0 +1,102 @@
+.message_contents_wrap {
+  display: grid !important;
+  grid-template-columns: 6fr 5fr;
+  gap: 7.3vw;
+}
+
+.message_contents_wrap_txt p {
+  font-size: max(1.17vw, 16px);
+  line-height: 2em;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+
+@media screen and (min-width: 1000px) {
+  .mb_25_pc {
+    margin-bottom: 25px;
+  }
+}
+
+.mb_15 {
+  margin-bottom: 15px;
+}
+
+.message_contents_wrap_img img {
+  margin-bottom: 15px;
+  font-family: "object-fit: cover; object-position: center;";
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.message_contents_wrap_img_txt_position {
+  font-size: max(1.17vw, 16px);
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  line-height: 1em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.message_contents_wrap_img_txt_name {
+  display: flex;
+  -moz-column-gap: 1.09vw;
+  column-gap: 1.09vw;
+  align-items: flex-end;
+}
+
+.message_contents_wrap_img_txt_name .jp {
+  font-size: max(1.75vw, 24px);
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 1em;
+}
+
+.message_contents_wrap_img_txt_name .en {
+  font-family: "futura-pt", "Century Gothic", YuGothic, sans-serif;
+  color: #1D646D;
+  font-size: max(1.17vw, 16px);
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 0.7em;
+}
+
+@media screen and (max-width: 768px) {
+  .message_contents_wrap {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .message_contents_wrap_img_txt_position {
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    margin-bottom: 7px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .message_contents_wrap_img_txt_name {
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .message_contents_wrap_img_txt_name .jp {
+    font-size: 20px;
+    letter-spacing: 1.8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .message_contents_wrap_img_txt_name .en {
+    font-size: 15px;
+    letter-spacing: 1.3px;
+  }
+}

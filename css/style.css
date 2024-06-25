@@ -416,11 +416,6 @@ body {
   }
 }
 
-/* 共通要素 */
-*:first-child {
-  margin-top: 0 !important;
-}
-
 img {
   width: 100%;
 }
@@ -10226,4 +10221,3 @@ body.privacy #privacy .date {
 
 .sd[data-s-c47e1866-f975-4865-a0cb-b1f931b5e0dd] {}
 
-</style>
