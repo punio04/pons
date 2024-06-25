@@ -6492,6 +6492,10 @@ a {
   font-size: 2.4rem;
 }
 
+.sp {
+  display: none !important;
+}
+
 @media screen and (min-width: 769px) {
   .view-sp {
     display: none !important;
