@@ -1432,6 +1432,40 @@ body>main>section.cont7>div>div>div:nth-child(4)>figure::after {
     background-position: 18px center;
     background-size: 29px 28px;
   }
+
+  header .header-wrap .block-nav nav ul li a {
+    font-size: 20px;
+    color: #fff !important;
+  }
+
+  .document a {
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: #fff;
+    border: initial;
+    padding: initial;
+    position: relative;
+    border-radius: 30px;
+    color: #1d646d;
+    margin-left: -35px;
+  }
+
+  .document a:after {
+    content: initial;
+    position: initial;
+    right: 1vw;
+    top: initial;
+    width: 10px;
+    height: 10px;
+    border-right: initial;
+    border-bottom: initial;
+    transform: initial;
+  }
+
+  header .header-wrap .block-nav nav ul li a span.ja {
+    font-size: 12px;
+    font-weight: 300;
+  }
 }
 
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
