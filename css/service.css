@@ -6493,12 +6493,24 @@ a {
 }
 
 .sp {
-  display: none !important;
+  display: none;
 }
+
+.pc {
+  display: block;
+}
+
 
 @media screen and (min-width: 769px) {
   .view-sp {
     display: none !important;
+  }
+  .sp {
+    display: block;
+  }
+
+  .pc {
+    display: none;
   }
 }
 
