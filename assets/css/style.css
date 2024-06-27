@@ -721,12 +721,6 @@ section h2.sec_ttl .big {
   background-color: #f2f7f2;
 }
 
-.cont5 .inner p {
-  text-align: center;
-  font-weight: bold;
-  font-size: 18px;
-}
-
 .cont5 h2.sec_ttl {
   margin: 0 auto 60px
 }
@@ -1465,6 +1459,54 @@ body>main>section.cont7>div>div>div:nth-child(4)>figure::after {
   header .header-wrap .block-nav nav ul li a span.ja {
     font-size: 12px;
     font-weight: 300;
+  }
+
+
+  td.bg_1 {
+    vertical-align: baseline;
+  }
+
+  td.bg_3 {
+    vertical-align: baseline;
+  }
+
+  span.big {
+    font-size: 22px !important;
+  }
+
+  .cont9 .table_wrap .scroll table tr td span {
+    font-size: 59%;
+  }
+
+  table.radius-table {
+    width: 100%;
+  }
+
+  td.sticky {
+    width: 200px !important;
+  }
+
+  .cont9 .table_wrap .scroll table tr td.bg_1 {
+    line-height: 1.2;
+  }
+
+  .cont9 .table_wrap .scroll table tr td.bg_2 {
+    vertical-align: baseline;
+    line-height: 1.2;
+  }
+
+  .cont9 .table_wrap .scroll table tr td.bg_3 {
+    line-height: 1.2;
+    color: #fff;
+    background-color: #378b95;
+  }
+
+  .cont9 .table_wrap .scroll table tr td span {
+    line-height: 1.6;
+  }
+
+  p.link {
+    padding: 0 20px;
   }
 }
 
