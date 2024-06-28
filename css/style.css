@@ -1546,11 +1546,6 @@ footer .block-footer .footer-wrap .copyright span {
   }
 }
 
-body {
-  display: none;
-  transition: 0.1s;
-}
-
 body.load {
   display: block;
   animation: show 1s ease-out 0s;
@@ -2525,13 +2520,13 @@ body.service #service .bl-service {
 }
 
 body.service #service .bl-service.bl-service01 .h2-service {
-  background-image: url("../images/service/bg-service1.jpg");
+  background-image: url("../images/bg-service1.jpg");
   /*SP*/
 }
 
 @media screen and (max-width: 768px) {
   body.service #service .bl-service.bl-service01 .h2-service {
-    background-image: url("../images/service/bg-service1_sp.jpg");
+    background-image: url("../images/bg-service1_sp.jpg");
   }
 }
 
@@ -2552,7 +2547,7 @@ body.service #service .bl-service.bl-service02 {
 }
 
 body.service #service .bl-service.bl-service02 .h2-service {
-  background-image: url("../images/service/bg-service2.jpg");
+  background-image: url("../images/bg-service2.jpg");
   /*SP*/
 }
 
