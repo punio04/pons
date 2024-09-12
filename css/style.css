@@ -10214,5 +10214,7 @@ body.privacy #privacy .date {
   max-width: 100%;
 }
 
-.sd[data-s-c47e1866-f975-4865-a0cb-b1f931b5e0dd] {}
-
+.tokium_reason .tokium_reason_flex .reason_flex.bottom .reason_item .reason_text {
+  margin: 30px 0 20px 0;
+  font-size: 1.52rem;
+}

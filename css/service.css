@@ -6335,6 +6335,19 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width:768px) {
+  .tokium_reason .tokium_reason_flex .reason_flex .reason_item .reason_img {
+    width: 100%;
+    height: 100% !important;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .tokium_reason .tokium_reason_flex {
+    margin: 0px !important;
+  }
+}
+
 .tokium_reason {
   padding: 150px 0 100px !important;
 }
@@ -6500,6 +6513,7 @@ a {
   .view-sp {
     display: none !important;
   }
+
   .sp {
     display: block;
   }
@@ -6742,32 +6756,53 @@ section.top_problem .block {
   .problem_text01 {
     font-size: 20px;
   }
-}
 
-@media screen and (max-width: 480px) {
-  article {
-    margin-top: 70px;
+  .tokium_reason .tokium_reason_flex .reason_flex .reason_item .reason_subheading .reason_no {
+    font-size: 45px!important;
+    color: #008D97;
+    font-family: 'Noto Sans JP' !important;
+    white-space: nowrap;
+    border-bottom: solid 2px #008D97;
+    font-weight: 500;
+    line-height: 1.2;
+    position: absolute;
+    top: -8px;
+    left: 0;
   }
 
-  .red.top_problem_title.bold.content_margin {
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 60px;
-    padding-top: 0px;
+  .tokium_reason .tokium_reason_flex .reason_flex .reason_item .reason_subheading {
+    font-size: 19px!important;
   }
-}
 
-@media screen and (max-width: 480px) {
-  .red.top_problem_title.bold.content_margin {
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 30px;
-    padding-top: 0px;
+  @media screen and (max-width: 480px) {
+    article {
+      margin-top: 70px;
+    }
+
+    .red.top_problem_title.bold.content_margin {
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 60px;
+      padding-top: 0px;
+    }
   }
-}
+
+  @media screen and (max-width: 480px) {
+    .red.top_problem_title.bold.content_margin {
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 30px;
+      padding-top: 0px;
+    }
+  }
 
 
-table tr th,
-table tr td {
-        display: table-cell;
-}
+  table tr th,
+  table tr td {
+    display: table-cell;
+  }
+
+  .p-table th,
+  .p-table td {
+    display: table-cell;
+  }

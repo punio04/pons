@@ -35,9 +35,9 @@ a {
 }
 
 .inner {
-  max-width: 1100px;
+  max-width: 1360px;
   margin: 0 auto;
-  padding: 60px 30px 0px 30px;
+  padding: 0px;
 }
 
 .b {
@@ -986,14 +986,17 @@ body>main>section.cont7>div>div>div:nth-child(4)>figure::after {
   font-weight: bold;
 }
 
-.cont9 .table_wrap {}
 
 .cont9 .table_wrap .scroll {
-  overflow: scroll;
+  overflow: initial;
 }
 
 .cont9 .table_wrap .scroll table {
-  border-collapse: collapse;
+  border-collapse: initial;
+}
+
+.cont9 .table_wrap .scroll {
+  overflow-x: initial;
 }
 
 .cont9 td,
@@ -1025,14 +1028,11 @@ body>main>section.cont7>div>div>div:nth-child(4)>figure::after {
   color: #1d646d;
   font-weight: bold;
   font-size: 28px;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .cont9 .table_wrap .scroll table tr td:first-child {
   font-size: 20px;
-}
-
-.cont9 .table_wrap .scroll table tr td span {
-  font-size: 80%;
 }
 
 .cont9 .table_wrap .scroll table tr td.sticky {
@@ -1049,7 +1049,7 @@ body>main>section.cont7>div>div>div:nth-child(4)>figure::after {
 
 .cont9 .table_wrap .scroll table tr td.bg_2 {
   color: #fff;
-  background-color: #73aeb5;
+  background-color: #669AA3;
 }
 
 .cont9 .table_wrap .scroll table tr td.bg_3 {
@@ -1066,13 +1066,13 @@ td.bg_1 {
 }
 
 td.bg_3 {
-  vertical-align: baseline!important;
+  vertical-align: baseline !important;
 }
 
 .cont9 td,
 .cont9 th {
   border: 1px solid #ddd;
-  padding: 39px;
+  padding: 6px;
   text-align: center;
   vertical-align: middle;
   word-wrap: break-word;
@@ -1088,7 +1088,7 @@ td.bg_1 {
 }
 
 .cont9 .table_wrap .scroll table tr td span {
-  font-size: 83%;
+  font-size: 74%;
 }
 
 @media screen and (max-width:768px) {
@@ -1153,7 +1153,7 @@ td.bg_1 {
 
   .tokium_reason .tokium_reason_flex {
     max-width: 1243px;
-    margin: 30px auto 0 auto !important;
+    margin: 0px auto 0 auto !important;
   }
 
   .tokium_reason .tokium_reason_flex .reason_flex.top .reason_item,
@@ -2513,21 +2513,17 @@ body>main>section.cont7>div>div>div:nth-child(4)>figure::after {
 .sticky {
   font-size: 24px;
   padding: 24px 0px;
-  max-width: 235px;
+  max-width: 500px;
 }
 
 .cont9 .table_wrap {
   margin-bottom: 24px;
 }
 
-.cont9 .table_wrap .scroll {
-  overflow-x: auto;
-}
-
 .cont9 .table_wrap .scroll table {
   border-collapse: separate;
   border-spacing: 0;
-  width: 100%;
+  width: auto;
   table-layout: fixed;
 }
 
@@ -2577,10 +2573,6 @@ body>main>section.cont7>div>div>div:nth-child(4)>figure::after {
   font-size: 24px;
 }
 
-.cont9 .table_wrap .scroll table tr td span {
-  font-size: 80%;
-}
-
 .cont9 .table_wrap .scroll table tr td.sticky {
   position: sticky;
   position: -webkit-sticky;
@@ -2589,20 +2581,13 @@ body>main>section.cont7>div>div>div:nth-child(4)>figure::after {
   z-index: 99;
   background: #f2f7f2;
   color: #000;
-  width: 500px;
-  width: 235px;
+  width: 400px;
 }
 
 .cont9 .table_wrap .scroll table tr td.sticky:first-child {
-  /* position: sticky;
-  left: 0;
-  z-index: 1;
-  background: #f2f7f2; */
   color: #000;
-  /* width: 500px;
-  font-size: 24px; */
   font-size: 24px;
-  /* padding: 132px 0; */
+  padding: 24px 0px;
 }
 
 .sticky::before {
@@ -2617,8 +2602,7 @@ body>main>section.cont7>div>div>div:nth-child(4)>figure::after {
 }
 
 .cont9 .table_wrap .scroll table tr td.sticky {
-  color: #1d646d;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .cont9 .table_wrap .scroll table tr td.bg_1 {
@@ -2836,13 +2820,6 @@ tr:last-child td:last-child {
   }
 }
 
-footer {
-  background: #333333;
-  text-align: center;
-  color: #fff;
-  padding: 10px;
-}
-
 /* ハンバーガーメニューのスタイル */
 .hamburger {
   display: none;
@@ -2915,6 +2892,56 @@ footer {
 .small {
   font-size: 38px;
   letter-spacing: 0;
+}
+
+span.pricing-card__recommend {
+  font-size: .875rem;
+  width: 8.5rem;
+  font-size: .875rem;
+  width: 20.7rem;
+  height: 46px;
+  background: #388c96;
+  border: solid #388c96;
+  border-radius: 8px 8px 0 0;
+  border-width: 5px 5px 0;
+  bottom: 96.5%;
+  color: #fff;
+  left: 79rem;
+  position: absolute;
+  right: -1px;
+}
+
+span.pricing-card__recommend__ {
+  font-size: 1.875rem !important;
+  width: 8.5rem;
+  font-size: .875rem;
+  width: 23.2rem;
+  height: 46px;
+  bottom: 97.9%;
+  color: #398C97;
+  left: 78rem;
+  position: absolute;
+  right: -1px;
+  font-weight: bolder;
+}
+
+.cont9 .table_wrap .scroll table tr td.bg_4 {
+  padding: 32px 20px;
+  color: #fff;
+  background-color: #34616A;
+  width: 270px;
+  vertical-align: top;
+}
+
+.h3-service {
+  font-size: 34px;
+  line-height: 1.1;
+  font-weight: 500;
+  margin: 0;
+}
+
+.reason {
+  padding-top: 96px;
 }
 
 @media (max-width: 1060px) {
@@ -3430,6 +3457,25 @@ footer {
   .cont9 .table_wrap .scroll table tr td.sticky {
     width: 135px;
     font-size: 20px;
+  }
+
+  .cont9 .table_wrap .scroll {
+    overflow: scroll;
+  }
+
+  .cont9 .table_wrap .scroll table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .cont9 .table_wrap .scroll table {
+    border-collapse: collapse;
+  }
+
+  .cont9 .table_wrap .scroll {
+    overflow-x: auto;
   }
 
   .cont7-ttl {
