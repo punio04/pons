@@ -5,10 +5,11 @@
 }
 
 .message_contents_wrap_txt p {
-  font-size: max(1.17vw, 16px);
+  font-size: max(1.13vw, 16px);
   line-height: 2em;
   font-weight: 400;
   letter-spacing: 1.2px;
+  text-align: justify;
 }
 
 @media screen and (min-width: 1000px) {
