@@ -1662,11 +1662,6 @@ header .hdr_inner {
   z-index: 999;
 }
 
-header ul {
-  display: flex;
-  gap: 15px;
-}
-
 .mv-sp {
   display: none;
 }
