@@ -6771,6 +6771,14 @@
       margin: 0 auto;
     }
 
+    .pc_only {
+      display: block;
+    }
+
+    .sp_only {
+      display: none;
+    }
+
     @media screen and (max-width: 768px) {
       video {
         height: 100%;
@@ -6779,6 +6787,20 @@
         object-fit: cover;
         margin: 0 auto;
         margin-top: 140px;
+      }
+
+      .pc_only {
+        display: none;
+      }
+
+      .sp_only {
+        display: block;
+      }
+
+      h2.under {
+        gap: 8px;
+        padding-top: 24px;
+        padding-bottom: 30px;
       }
     }
   </style>
@@ -6900,6 +6922,16 @@
       <div class="content-wrap">
         <h2 class="under"><span class="en">Message</span><span class="ja">代表挨拶</span></h2>
         <div class="message_contents_wrap">
+          <div class="message_contents_wrap_img sp_only">
+            <img src="images/about-us-message.jpg" data-aos="fade" class="aos-init aos-animate">
+            <p class="message_contents_wrap_img_txt aos-init" data-aos="fade">
+              <span class="message_contents_wrap_img_txt_position">代表</span>
+              <span class="message_contents_wrap_img_txt_name">
+                <span class="jp">清水 弘太郎</span>
+                <span class="en">Shimizu Kotaro</span>
+              </span>
+            </p>
+          </div>
           <div class="message_contents_wrap_txt">
             <p class="mb_25_pc mb_15 aos-init aos-animate" data-aos="fade">
               様々な企業・クリニックのマーケティングに関わらせていただく中で、常に痛感することがあります。「正解は１つでもない、１つの正解が永遠に続くこともない」ということです。<br>
@@ -6907,7 +6939,7 @@
               また、SNSマーケターは「SNSの伸び」のみをKPI・KGIを設定してしまうことが多いですが、弊社はその先にある「予約数・購入数」などの貴社が設定するCVまでも追求します。<br>
               弊社は「SNSマーケティングを通じて誰でも勝てる未来を」を掲げ、貴社の事業に最適な施策を立案し、目標達成まで伴走致します。</p>
           </div>
-          <div class="message_contents_wrap_img">
+          <div class="message_contents_wrap_img pc_only">
             <img src="images/about-us-message.jpg" data-aos="fade" class="aos-init aos-animate">
             <p class="message_contents_wrap_img_txt aos-init" data-aos="fade">
               <span class="message_contents_wrap_img_txt_position">代表</span>
